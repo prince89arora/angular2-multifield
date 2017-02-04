@@ -1,0 +1,60 @@
+{
+  "name": "angular2-multifield",
+  "description": "Angular2 MultiField",
+  "author": "Prince Arora",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prince89arora/angular2-multifield"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build",
+    "build:prod": "brunch build --production",
+    "test": "tsc --noEmit && tslint app/**/*.ts app/*.ts"
+  },
+  "keywords": [
+    "brunch",
+    "skeleton",
+    "angular",
+    "ng2",
+    "angular2",
+    "typescript",
+    "starter",
+    "template",
+    "generator"
+  ],
+  "dependencies": {
+    "@angular/common": "2.0.2",
+    "@angular/compiler": "2.0.2",
+    "@angular/core": "2.0.2",
+    "@angular/forms": "2.0.2",
+    "@angular/http": "2.0.2",
+    "@angular/platform-browser": "2.0.2",
+    "@angular/platform-browser-dynamic": "2.0.2",
+    "@angular/router": "3.0.2",
+    "@types/es6-shim": "^0.31.32",
+    "angular-2-local-storage": "^1.0.1",
+    "bootstrap": "^3.3.7",
+    "copycat-brunch": "^1.1.0",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.35.0",
+    "jquery": "^3.1.1",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.23"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "2.7.1",
+    "brunch": "2.6.0 - 2.8.0 || >2.8.1",
+    "brunch-typescript": "2.0.0",
+    "clean-css-brunch": "^2.0.0",
+    "codelyzer": "0.0.28",
+    "environment-brunch": "^1.0.0",
+    "inline-css-brunch": "^2.0.0",
+    "javascript-brunch": "^2.0.0",
+    "tslint": "^3.15.0",
+    "typescript": "^2.0.3",
+    "uglify-js-brunch": "^2.0.1"
+  }
+}
